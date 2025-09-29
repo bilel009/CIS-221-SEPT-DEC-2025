@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc); /* Purple to blue gradient */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            width: 25%;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .offers {
+            margin: 20px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: #6a11cb; /* purple table header */
+            color: white;
+        }
+        .benefits {
+            margin: 20px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+        }
+        footer {
+            background: linear-gradient(135deg, #6a11cb, #2575fc); /* Purple to blue gradient */
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Fashion Store</h1>
+        <p>Your one-stop shop for trendy fashion</p>
+    </header>
+
+    <section class="products">
+        <div class="product">
+            <img src="dress.jpg" alt="Dress">
+            <h3>Elegant Dress</h3>
+            <p>$50</p>
+        </div>
+        <div class="product">
+            <img src="shoes.jpg" alt="Shoes">
+            <h3>Stylish Shoes</h3>
+            <p>$40</p>
+        </div>
+        <div class="product">
+            <img src="bag.jpg" alt="Handbag">
+            <h3>Designer Bag</h3>
+            <p>$60</p>
+        </div>
+    </section>
+
+    <section class="offers">
+        <h2>Upcoming Sale Offers</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Discount</th>
+                <th>Valid From</th>
+                <th>Valid To</th>
+            </tr>
+            <tr>
+                <td>All Dresses</td>
+                <td>20% Off</td>
+                <td>2 Oct</td>
+                <td>5 Oct</td>
+            </tr>
+            <tr>
+                <td>Shoes Collection</td>
+                <td>15% Off</td>
+                <td>3 Oct</td>
+                <td>7 Oct</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="benefits">
+        <h2>Why Shop With Us?</h2>
+        <ul>
+            <li>Trendy and high-quality fashion</li>
+            <li>Affordable prices</li>
+            <li>Fast delivery and easy returns</li>
+            <li>Secure payment options</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fashion Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
